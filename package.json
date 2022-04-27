@@ -1,0 +1,14 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "start": "cd backend && npm install && npm start",
+      "build": "tsc",
+      "dev": "tsnd --respawn ./src"
+    }
+   
+  
+  }
+  
