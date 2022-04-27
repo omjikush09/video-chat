@@ -8,9 +8,9 @@
         "node" : "16.0.0"
       },
     "scripts": {
-      "start": "cd backend && npm install && npm start",
-      "build": "tsc",
-      "dev": "tsnd --respawn ./src"
+      "start": "cd backend && npm install && npm start"
+ 
+   
     }
    
   
