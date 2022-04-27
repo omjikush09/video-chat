@@ -15,6 +15,7 @@ app.get("/get",(req:Request,res:Response)=>{
 app.get("/set",(req:Request,res:Response)=>{
     res.send("hello this is set route")
 })
-app.listen(8000,()=>{
+const port = process.env.PORT || 8000
+app.listen(port,()=>{
     console.log("Server is running")
 })
