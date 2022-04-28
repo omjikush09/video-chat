@@ -1,1 +1,1 @@
-web: node backend/dist/index.js
+web:cd backend && yarn install && tsc &&  node backend/dist/index.js
