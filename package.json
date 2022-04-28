@@ -1,7 +1,7 @@
 {
     "name": "backend",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "backend/dist/index.js",
     "license": "MIT",
     "engines" : { 
         "npm" : ">=7.0.0",
