@@ -1,1 +1,1 @@
-web: ndoe backend/dist/index.js
+web: node backend/dist/index.js
