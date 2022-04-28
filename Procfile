@@ -1,0 +1,1 @@
+web: ndoe backend/dist/index.js
