@@ -7,10 +7,10 @@ const app:Express =express();
 const server=http.createServer(app)
 
 
+
 const io=new Server(server,{
     cors:{
-        allowedHeaders:["GET","POST"],
-        origin:"*"
+        origin: "*",
     }
 })
 
