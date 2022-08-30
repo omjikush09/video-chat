@@ -18,8 +18,8 @@ interface context {
 }
 
 const SocketContext = createContext<context |null>(null);
-
-const socket = io("http://localhost:8000");
+const server=process.env.REACT_APP_SERVER || "http://localhost:8000"
+const socket = io(server);
 
 const ContextProvider = ({ children }: { children: JSX.Element }) => {
   const [stream, setStream] = useState<MediaStream | undefined>(undefined);
